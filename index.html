@@ -132,10 +132,11 @@
         <h2>Contact Me 📞</h2>
         <p>Interested in working together? Feel free to reach out!</p>
          <br>
-        <form action="submit_form.php" method="POST">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" rows="4" required></textarea>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="02c486ed-0cbd-443a-9f5c-c013fd2626a8">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
