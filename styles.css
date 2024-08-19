@@ -21,6 +21,9 @@ body {
     height: 200px;
     object-fit: cover;
     border: 3px solid #ff6347;
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-drag: none;
 }
 
 .intro-section {
